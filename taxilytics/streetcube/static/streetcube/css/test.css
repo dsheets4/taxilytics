@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td, caption {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th, caption {
+    font-weight: bold;
+    background-color: silver;
+}
+
+th.main-header {
+    font-size: 1.5em;
+}
+
+#status {
+    background-color: PaleTurquoise;
+    padding: 5px;
+}
+
+.error {
+    background-color: red;
+}
+
+.fail {
+    background-color: Gold;
+}
+
+.success {
+    background-color: LawnGreen;
+}
+
+.fixedHeight150 {
+    height: 150px;
+    overflow: scroll;
+}

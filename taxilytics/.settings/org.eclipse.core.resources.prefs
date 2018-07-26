@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//cluster/migrations/0001_initial.py=utf-8
+encoding//cluster/migrations/0003_auto_20150904_1506.py=utf-8
+encoding//entity/migrations/0001_initial.py=utf-8
+encoding//features/migrations/0001_initial.py=utf-8
+encoding//osm/migrations/0001_initial.py=utf-8

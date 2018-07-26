@@ -1,0 +1,102 @@
+[
+{
+    "fields": {
+        "arguments": "{}",
+        "algorithm": "MalletLda",
+        "num_topics": 8
+    },
+    "pk": 1,
+    "model": "topic.topicmodelconfig"
+},
+{
+    "fields": {
+        "arguments": "{}",
+        "algorithm": "MalletLda",
+        "num_topics": 300
+    },
+    "pk": 2,
+    "model": "topic.topicmodelconfig"
+},
+{
+    "fields": {
+        "arguments": "{}",
+        "algorithm": "MalletLda",
+        "num_topics": 100
+    },
+    "pk": 3,
+    "model": "topic.topicmodelconfig"
+},
+{
+    "fields": {
+        "arguments": "{}",
+        "algorithm": "MalletLda",
+        "num_topics": 500
+    },
+    "pk": 4,
+    "model": "topic.topicmodelconfig"
+},
+{
+    "fields": {
+        "arguments": "{}",
+        "algorithm": "MalletLda",
+        "num_topics": 50
+    },
+    "pk": 5,
+    "model": "topic.topicmodelconfig"
+},
+{
+    "fields": {
+        "data": 1,
+        "created": "2015-08-29T13:34:01.166Z",
+        "config": 1,
+        "slug": "lda-mallet8-on-shenzhen-loaded",
+        "modified": "2015-09-02T12:39:49.794Z"
+    },
+    "pk": 1,
+    "model": "topic.topicmodel"
+},
+{
+    "fields": {
+        "data": 1,
+        "created": "2015-08-29T14:48:54.126Z",
+        "config": 2,
+        "slug": "lda-mallet300-on-shenzhen-loaded",
+        "modified": "2015-09-02T11:22:36.813Z"
+    },
+    "pk": 3,
+    "model": "topic.topicmodel"
+},
+{
+    "fields": {
+        "data": 1,
+        "created": "2015-08-29T21:40:50.690Z",
+        "config": 3,
+        "slug": "lda-mallet100-on-shenzhen-loaded",
+        "modified": "2015-09-02T10:08:11.029Z"
+    },
+    "pk": 4,
+    "model": "topic.topicmodel"
+},
+{
+    "fields": {
+        "data": 1,
+        "created": "2015-08-29T22:24:20.187Z",
+        "config": 4,
+        "slug": "lda-mallet500-on-shenzhen-loaded",
+        "modified": "2015-09-02T08:47:31.935Z"
+    },
+    "pk": 5,
+    "model": "topic.topicmodel"
+},
+{
+    "fields": {
+        "data": 1,
+        "created": "2015-08-29T23:27:12.586Z",
+        "config": 5,
+        "slug": "lda-mallet50-on-shenzhen-loaded",
+        "modified": "2015-09-02T07:31:33.033Z"
+    },
+    "pk": 6,
+    "model": "topic.topicmodel"
+}
+]

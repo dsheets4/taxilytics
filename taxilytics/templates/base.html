@@ -1,0 +1,18 @@
+{% load staticfiles %}{% load i18n %}<!doctype html>
+<html lang="en">
+<head>
+{% block header %}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=yes, width=device-width">
+    <title>{% block title %}TITLE{% endblock %}</title>
+    {% block favicon %}{% endblock %}
+    {% block styles %}{% endblock %}
+    {% block scripts %}{% endblock %}
+{% endblock %}
+</head>
+<body class="{% if is_popup %}popup {% endif %}{% block bodyclass %}{% endblock %}">
+{% block content %}
+{% endblock %}
+</body>
+</html>

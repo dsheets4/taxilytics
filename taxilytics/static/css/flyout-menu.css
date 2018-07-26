@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.flyout-menu button {
+    width: 7em;
+}
+
+.flyout-menu.shown.ol-control {
+    background-color: transparent;
+}
+
+.flyout-menu.shown.ol-control:hover {
+    background-color: transparent;
+}
+
+.flyout-menu.shown {
+    bottom: 3em;
+}
+
+.flyout-menu .menu {
+    padding: 0 1em 0 0;
+    margin: 0;
+    border: 4px solid #eee;
+    border-radius: 4px;
+    background-color: rgba(255,255,255,0.8);
+    display: none;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.flyout-menu.shown .menu {
+    display: block;
+}
+
+.flyout-menu button {
+    bottom: auto;
+    left: auto;
+}
+
+.flyout-menu.touch ::-webkit-scrollbar {
+    width: 4px;
+}
+
+.flyout-menu.touch ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+.flyout-menu.touch ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.menu {
+    /*background-color: rgba(23, 100, 166, .6);*/
+}

@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block favicon %}<link rel="icon" href="{% static 'favicon.ico' %}" />{% endblock %}
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'css/3rdparty/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+{% endblock %}
+{% block scripts %}
+	{% comment %}Bootstrap depends on jQuery so it is included first{% endcomment %}
+    <script src="{% static 'js/3rdparty/jquery-3.1.1.min.js' %}"></script>
+    <script src="{% static 'js/3rdparty/bootstrap.min.js' %}"></script>
+{% endblock %}
+{% block content %}
+	<div class="container-fluid">
+		<div class="row">
+			{% block content_header %}
+				{% include 'base_header.html' %}
+			{% endblock %}
+		</div>
+		{% block content_body %}
+			<div class="row">
+				<div class="col-md-12">
+					<div id="content" class="content layout_component" style="background-color: #000000;"></div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 scrollable">
+					<div id="details" class="details layout_component"></div>
+				</div>
+			</div>
+		{% endblock %}
+		<div class="row">
+			{% block content_footer %}
+				{% include 'base_footer.html' %}
+			{% endblock %}
+		</div>
+	</div>
+{% endblock %}

@@ -1,0 +1,69 @@
+
+svg {
+    width: auto;
+    height: 100%;
+}
+
+.chart .highlight {
+    fill: red;
+}
+
+.chart div {
+}
+
+rect.bar {
+    fill: steelblue;
+}
+
+text.bar {
+    fill: black;
+    text-anchor: end;
+}
+
+.axis text {
+  font: 10px sans-serif;
+
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* Line Chart */
+.axis path,
+.axis line {
+  fill: none;
+  /*stroke: #000;*/
+  shape-rendering: crispEdges;
+}
+
+/*.x.axis path {
+  display: none;
+}*/
+
+.line {
+  fill: none;
+  /*stroke: steelblue;*/
+  /*stroke-width: 1.5px;*/
+}
+
+.event {
+  fill: teal;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+
+
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
+

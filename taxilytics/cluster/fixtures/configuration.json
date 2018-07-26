@@ -1,0 +1,174 @@
+[
+{
+    "model": "cluster.clusterconfig",
+    "fields": {
+        "arguments": "{\"min_pts\": 1, \"name\": \"geo_cluster\", \"eps\": 0.005}",
+        "algorithm": "DBSCAN"
+    },
+    "pk": 2
+},
+{
+    "model": "cluster.clusterconfig",
+    "fields": {
+        "arguments": "{\"min_pts\": 1, \"name\": \"topic_cluster\", \"eps\": 0.25}",
+        "algorithm": "DBSCAN"
+    },
+    "pk": 3
+},
+{
+    "model": "cluster.clusterconfig",
+    "fields": {
+        "arguments": "{\"n_clusters\": 3}",
+        "algorithm": "KMeans"
+    },
+    "pk": 4
+},
+{
+    "model": "cluster.clusterconfig",
+    "fields": {
+        "arguments": "{\"min_pts\": 1, \"name\": \"topic_cluster\", \"eps\": 0.3}",
+        "algorithm": "DBSCAN"
+    },
+    "pk": 5
+},
+{
+    "model": "cluster.clusterconfig",
+    "fields": {
+        "arguments": "{\"min_pts\": 5, \"name\": \"topic_cluster\", \"eps\": 0.3}",
+        "algorithm": "DBSCAN"
+    },
+    "pk": 6
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 2,
+        "topic_model": null,
+        "data": 2,
+        "created": "2015-08-30T16:31:13.611Z",
+        "modified": "2015-09-06T19:11:22.608Z"
+    },
+    "pk": 2
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 3,
+        "topic_model": 4,
+        "data": 2,
+        "created": "2015-08-30T16:32:08.358Z",
+        "modified": "2015-09-02T15:05:34.828Z"
+    },
+    "pk": 3
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 4,
+        "topic_model": null,
+        "data": 2,
+        "created": "2015-09-02T17:50:47.908Z",
+        "modified": "2015-09-02T17:50:47.908Z"
+    },
+    "pk": 4
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 4,
+        "topic_model": 5,
+        "data": 2,
+        "created": "2015-09-02T20:41:51.769Z",
+        "modified": "2015-09-02T20:41:51.769Z"
+    },
+    "pk": 5
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 4,
+        "topic_model": 1,
+        "data": 2,
+        "created": "2015-09-02T20:42:02.676Z",
+        "modified": "2015-09-02T20:42:02.676Z"
+    },
+    "pk": 6
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 4,
+        "topic_model": 6,
+        "data": 2,
+        "created": "2015-09-02T20:42:23.019Z",
+        "modified": "2015-09-02T20:42:23.019Z"
+    },
+    "pk": 7
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 4,
+        "topic_model": 4,
+        "data": 2,
+        "created": "2015-09-02T20:42:30.619Z",
+        "modified": "2015-09-02T20:42:30.619Z"
+    },
+    "pk": 8
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 4,
+        "topic_model": 3,
+        "data": 2,
+        "created": "2015-09-02T20:42:47.088Z",
+        "modified": "2015-09-04T13:50:05.189Z"
+    },
+    "pk": 9
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 5,
+        "topic_model": 4,
+        "data": 2,
+        "created": "2015-09-03T02:00:30.606Z",
+        "modified": "2015-09-03T02:01:06.699Z"
+    },
+    "pk": 10
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 6,
+        "topic_model": 4,
+        "data": 6,
+        "created": "2015-09-11T09:46:28.365Z",
+        "modified": "2015-09-11T10:09:51.747Z"
+    },
+    "pk": 11
+},
+{
+    "model": "cluster.clustermodel",
+    "fields": {
+        "arguments": null,
+        "config": 6,
+        "topic_model": 4,
+        "data": 7,
+        "created": "2015-09-11T10:01:17.844Z",
+        "modified": "2015-09-11T10:09:46.987Z"
+    },
+    "pk": 12
+}
+]

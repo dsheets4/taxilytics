@@ -1,0 +1,178 @@
+[
+{
+    "model": "query.attribute",
+    "pk": 1,
+    "fields": {
+        "attribute": "{\"passenger\": true}",
+        "name": "Passenger: True"
+    }
+},
+{
+    "model": "query.attribute",
+    "pk": 2,
+    "fields": {
+        "attribute": "{\"passenger\": false}",
+        "name": "Passenger: False"
+    }
+},
+{
+    "model": "query.spatial",
+    "pk": 1,
+    "fields": {
+        "operator": "contained",
+        "segment": "geometry",
+        "area": 1
+    }
+},
+{
+    "model": "query.spatial",
+    "pk": 2,
+    "fields": {
+        "operator": "contained",
+        "segment": "start_point",
+        "area": 2
+    }
+},
+{
+    "model": "query.spatial",
+    "pk": 3,
+    "fields": {
+        "operator": "contained",
+        "segment": "end_point",
+        "area": 3
+    }
+},
+{
+    "model": "query.spatial",
+    "pk": 4,
+    "fields": {
+        "operator": "contained",
+        "segment": "end_point",
+        "area": 2
+    }
+},
+{
+    "model": "query.spatial",
+    "pk": 5,
+    "fields": {
+        "operator": "contained",
+        "segment": "start_point",
+        "area": 3
+    }
+},
+{
+    "model": "query.spatial",
+    "pk": 6,
+    "fields": {
+        "operator": "intersects",
+        "segment": "geometry",
+        "area": 4
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 1,
+    "fields": {
+        "limit": null,
+        "attribute": [
+            1
+        ],
+        "spatial": [
+            1
+        ],
+        "name": "Shenzhen Loaded",
+        "temporal": []
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 2,
+    "fields": {
+        "limit": null,
+        "attribute": [],
+        "spatial": [
+            2,
+            3
+        ],
+        "name": "Luohu to Buji Station",
+        "temporal": []
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 3,
+    "fields": {
+        "limit": null,
+        "attribute": [
+            2
+        ],
+        "spatial": [
+            1
+        ],
+        "name": "Shenzhen Unloaded",
+        "temporal": []
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 4,
+    "fields": {
+        "limit": null,
+        "attribute": [],
+        "spatial": [
+            1
+        ],
+        "name": "Shenzhen All",
+        "temporal": []
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 5,
+    "fields": {
+        "limit": null,
+        "attribute": [
+            1
+        ],
+        "spatial": [
+            2,
+            3
+        ],
+        "name": "Luohu to Buji Station - Loaded",
+        "temporal": []
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 6,
+    "fields": {
+        "limit": null,
+        "attribute": [
+            1
+        ],
+        "spatial": [
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "name": "Luohu to Buji to Luohu - Loaded",
+        "temporal": []
+    }
+},
+{
+    "model": "query.tripquery",
+    "pk": 7,
+    "fields": {
+        "limit": null,
+        "attribute": [],
+        "spatial": [
+            4,
+            5
+        ],
+        "name": "Buji to Luohu",
+        "temporal": []
+    }
+}
+]

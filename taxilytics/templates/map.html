@@ -1,0 +1,26 @@
+{% extends 'base_site.html' %}
+{% load staticfiles %}
+{% load require %}
+{% load jsonify %}
+
+{% block title %}{{ title }}{% endblock %}
+{% block styles %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/3rdparty/ol.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/3rdparty/layer-switcher.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/flyout-menu.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/map.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/ui.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/vis.css' %}" />
+{% endblock %}
+
+{% block scripts %}
+    {{ block.super }}
+    <script src="{% static 'js/3rdparty/jquery-3.1.1.min.js' %}"></script>
+    <script src="{% static 'js/3rdparty/jquery-ui.min.js' %}"></script>
+    <script type="text/javascript">
+    var initial_data = {{ data|jsonify|safe }};
+    var context = {{ context|jsonify|safe }};
+    </script>
+    {% require_module 'js/main' %}
+{% endblock %}

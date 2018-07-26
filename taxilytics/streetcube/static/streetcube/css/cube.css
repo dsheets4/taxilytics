@@ -1,0 +1,52 @@
+
+#map {
+    color: white;
+    background-color: #000000;
+    border-color: #000000;
+    min-height: 300px;
+    max-height: 400px;
+    height: 100%
+}
+
+.chart {
+    min-height: 100px;
+    max-height: 120px;
+    height: 100%
+}
+
+#hours canvas {
+}
+
+#days {
+}
+
+#hours {
+}
+
+#summary {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+#roadtype {
+}
+
+#other {
+}
+
+svg {
+    width: auto;
+    height: 100%;
+}
+
+.chart .highlight {
+    fill: red;
+}
+
+.chart div {
+}
+
+rect.bar {
+    fill: steelblue;
+    stroke: black;
+}

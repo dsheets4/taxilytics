@@ -1,0 +1,169 @@
+.content {
+	height: 100%;
+	width: 100%;
+}
+
+.menu-filters {
+    top: .5em;
+    left: 10em;
+}
+
+.filter-menu button {
+    bottom: auto;
+    left: auto;
+}
+
+.filter-menu {
+    top: .5em;
+    left: 20em;
+}
+
+.info-menu button {
+    bottom: auto;
+    left: auto;
+}
+
+.cubelet-menu {
+    top: .5em;
+    left: 30em;
+}
+
+.info-menu {
+    top: .5em;
+    left: 40em;
+}
+
+.help-menu {
+    top: .5em;
+    left: 50em;
+}
+
+.ol-zoom-extent {
+	top: 20em;
+	left: 0.5em;
+}
+
+.draw-poly button {
+    width: 3.5em;
+}
+
+.draw-poly {
+	top: 22em;
+	left: 0.5em;
+    width: 4.5em;
+}
+
+.ol-mouse-position {
+	top: 0.5em;
+	right: 7em;
+}
+
+.load-control, .load-control button {
+    top: 0.5em;
+	right: 2.5em;
+ }
+
+.ol-rotate {
+	right: 5em;
+}
+
+.ol-custom-overviewmap, .ol-custom-overviewmap.ol-uncollapsible {
+    bottom: auto;
+    left: auto;
+    right: 0.5em;
+    top: 2.5em;
+}
+
+.ol-custom-overviewmap:not(.ol-collapsed)  {
+    border: 1px solid black;
+}
+
+.ol-custom-overviewmap .ol-overviewmap-map {
+    border: none;
+    width: 200px;
+}
+
+.ol-custom-overviewmap .ol-overviewmap-box {
+    border: 2px solid red;
+}
+
+.ol-custom-overviewmap:not(.ol-collapsed) button {
+    bottom: auto;
+    left: auto;
+    right: 1px;
+    top: 1px;
+}
+
+.form-box {
+    margin: 0 auto;
+    position: relative;
+}
+
+.form-box div {
+    display: inline-table;
+    margin-top: .2em;
+}
+
+.form-box label {
+    display: inline-block;
+    width: 90px;
+    padding: 3px 0 3px 0;
+}
+
+.filter-form label {
+    text-align: right;
+    padding-right: 3px;
+}
+
+.form-box input {
+    width: 150px;
+}
+
+#time-range {
+    width: 150px;
+}
+
+.form-box legend {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.form-box input[type="checkbox"], .form-box input[type="radio"] {
+    width: 20px;
+}
+
+input[type="range"]::-moz-range-thumb {
+    background: lightgrey;
+}
+
+.form-box fieldset {
+    padding-bottom: 1em;
+}
+
+.filter-form button {
+    float: right;
+}
+
+.help tr td, .help tr th {
+    padding: 0px 5px 0px 5px;
+
+    border-width: 1px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: groove;
+    border-left-style: none;
+}
+
+.info-menu tr td, .info-menu tr th {
+    text-align: center;
+}
+
+.info-menu tr td, .info-menu tr th {
+    padding: 0px 5px 0px 5px;
+
+    border-width: 1px;
+    border-top-style: none;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-left-style: none;
+}

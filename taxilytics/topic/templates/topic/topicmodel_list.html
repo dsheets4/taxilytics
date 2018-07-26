@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+{% block header %}
+<link rel="stylesheet" type="text/css" href="{% static 'docs/style.css' %}" />
+{% endblock %}
+
+{% block content %}
+	{% if topicmodel_list %}
+	    <ul>
+	    {% for model in topicmodel_list %}
+	        <li>
+	        	<a href="{% url 'topic:map' model.id %}">{{ model|stringformat:"s" }}</a>
+	        	(<a href="{% url 'topic:json' model.id %}">json</a>)
+	        </li>
+	    {% endfor %}
+	    </ul>
+	{% else %}
+	    <p>No topic models are available.</p>
+	{% endif %}
+{% endblock %}

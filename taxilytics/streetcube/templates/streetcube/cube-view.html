@@ -1,0 +1,37 @@
+{% extends 'base_site.html' %}
+{% load staticfiles %}
+{% load require %}
+
+{% block title %}Cube View{% endblock %}
+{% block styles %}
+    {{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/3rdparty/jquery-ui.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/3rdparty/ol.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/3rdparty/layer-switcher.css' %}">
+    <link rel="stylesheet" href="{% static 'css/flyout-menu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/map.css' %}">
+    <link rel="stylesheet" href="{% static 'streetcube/css/cube.css' %}">
+{% endblock %}
+
+{% block scripts %}
+    {{ block.super }}
+    <script src="{% static 'js/3rdparty/jquery-ui.min.js' %}"></script>
+    {% require_module 'streetcube/js/cube-main' %}
+{% endblock %}
+
+
+{% block content_body %}
+    <div class="row">
+        <div id="map" class="col-md-12 layout_component"></div>
+    </div>
+    <div class="row">
+        <div>
+            <div id="hours" class="chart col-md-6 layout_component"></div>
+            <div id="days" class="chart col-md-6 layout_component"></div>
+            <!-- div id="highway" class="chart col-md-4 layout_component"></div -->
+        </div>
+    </div>
+    <div class="row">
+        <div id="summary" class="chart col-md-12 layout_component"></div>
+    </div>
+{% endblock %}
